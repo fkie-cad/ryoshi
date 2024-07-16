@@ -94,5 +94,5 @@ Also note, that future rootkits may directly target these utilities to prevent d
 
 ### References
 
-[The Sleuth Kit](https://www.sleuthkit.org/sleuthkit/)
+[The Sleuth Kit](https://www.sleuthkit.org/sleuthkit/)<br>
 [Dissect](https://github.com/fox-it/dissect)
