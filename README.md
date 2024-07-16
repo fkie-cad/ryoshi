@@ -43,7 +43,7 @@ Note, that statically compiling the libtsk can greatly reduce this utility's foo
 
 ```
 sudo apt install libtsk-dev build-essential
-git clone <...>
+git clone https://github.com/fkie-cad/ryoshi.git
 cd ryoshi/tsk
 make
 ```
@@ -59,7 +59,7 @@ Python >= 3.7 is required. The following instructions also assume *pip* is insta
 
 ```
 sudo pip install dissect
-git clone <...>
+git clone https://github.com/fkie-cad/ryoshi.git
 cd ryoshi/dissect
 ```
 ```
@@ -74,7 +74,7 @@ sudo apt install python3-venv binutils
 python3 -m venv .venv
 . .venv/bin/activate
 pip install dissect pyinstaller
-git clone <...>
+git clone https://github.com/fkie-cad/ryoshi.git
 cd ryoshi/dissect
 pyinstaller -F --clean --hidden-import pkgutil --hidden-import dissect --collect-submodules dissect dscan.py 
 cd dist
