@@ -31,8 +31,8 @@ We provide two different implementations: One is based on Brian Carrier's *The S
 
 To be able to parse the disk, both implementations require root privileges. As arguments, they take:
 
-**\<volume\>** The disk/volume/filesystem to be parsed. It has to contain a supported file system.
-**\<mount point\>** The path where the specified volume is mounted. If you want to parse an encrypted volume or other logical volume, use the corresponding mapper instead of specifying the volume directly (e.g. /dev/mapper/ubuntu--vg-ubuntu--lv).
+**\<volume\>** The disk/volume/filesystem to be parsed. It has to contain a supported file system.<br>
+**\<mount point\>** The path where the specified volume is mounted. If you want to parse an encrypted volume or other logical volume, use the corresponding mapper instead of specifying the volume directly (e.g. /dev/mapper/ubuntu--vg-ubuntu--lv).<br>
 **\<extract path\>** A path where extracted files should be stored.
 
 
